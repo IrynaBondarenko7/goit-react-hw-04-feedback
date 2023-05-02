@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Layout } from './Layout/Layout';
 import { Section } from './Section/Section';
 import { Statistic } from './Statistic/Statistic';
 import { Notification } from './Notification/Notification';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
+import { Layout } from './Layout/Layout';
+
 export const App = () => {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
